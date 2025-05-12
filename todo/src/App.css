@@ -1,0 +1,117 @@
+/* Define o estilo geral do body da página */
+body {
+  font-family: Arial; /* Define a fonte usada na página como Arial */
+  background-color: #f4f4f4; /* Cor de fundo clara para o body */
+  padding: 30px; /* Espaçamento de 30px em volta do conteúdo */
+  color: #333; /* Cor do texto padrão, um cinza escuro */
+  background-image: url(img/lovepik-black-creative-background-image_500872896.jpg); /* Define uma imagem de fundo */
+  background-size: cover; /* A imagem de fundo cobre toda a área do body */
+}
+
+/* Estilo para o container principal da aplicação */
+.app {
+  max-width: 600px; /* Define a largura máxima do container */
+  margin: 0 auto 300px; /* Centraliza o container e adiciona margem inferior de 300px */
+  background-color: #efefef; /* Cor de fundo do container */
+  padding: 20px 30px; /* Espaçamento interno (padding) do container */
+  border-radius: 10px; /* Bordas arredondadas para o container */
+}
+
+/* Título principal (h1) centralizado */
+h1 {
+  text-align: center; /* Centraliza o texto */
+}
+
+/* Estilo para subtítulos (h2) com margem inferior */
+h2 {
+  margin-bottom: 10px; /* Adiciona 10px de espaço abaixo do h2 */
+}
+
+/* Parágrafos com margens verticais */
+p {
+  margin: 10px 0; /* Margem de 10px acima e abaixo de cada parágrafo */
+}
+
+/* Define o comportamento dos inputs */
+input {
+  box-sizing: border-box; /* Inclui padding e border no cálculo da largura */
+}
+
+/* Estilo para os botões */
+button {
+  background-color: #333974; /* Cor de fundo do botão */
+  color: #fff; /* Cor do texto do botão */
+  padding: 5px 10px; /* Espaçamento interno do botão */
+  margin-right: 10px; /* Margem à direita de cada botão */
+  border: none; /* Remove a borda do botão */
+  border-radius: 3px; /* Bordas arredondadas para o botão */
+  cursor: pointer; /* Altera o cursor para um ponteiro quando passa sobre o botão */
+  opacity: .8; /* Torna o botão levemente transparente */
+  transition: .3s; /* Suaviza a transição de alterações */
+}
+
+/* Efeito de hover para os botões */
+button:hover {
+  opacity: 1; /* Torna o botão completamente opaco ao passar o mouse */
+}
+
+/* Estilo para a lista de tarefas */
+.todo-list {
+  margin-bottom: 20px; /* Espaço abaixo da lista de tarefas */
+  padding-bottom: 20px; /* Espaço abaixo do conteúdo da lista */
+  border-bottom: 1px solid #555; /* Linha separadora abaixo da lista */
+}
+
+/* Estilo para cada tarefa individual */
+.todo {
+  background-color: #fff; /* Cor de fundo das tarefas */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave para destacar as tarefas */
+  padding: 10px; /* Espaçamento interno das tarefas */
+  border-radius: 5px; /* Bordas arredondadas para as tarefas */
+  display: flex; /* Flexbox para layout da tarefa */
+  justify-content: space-between; /* Espaça os itens de forma equilibrada */
+  align-items: center; /* Alinha os itens no centro verticalmente */
+}
+
+/* Estilo para o botão de completar tarefa */
+.complete {
+  background-color: #5cb85c; /* Cor verde para indicar completar */
+}
+
+/* Estilo para o botão de remover tarefa */
+.remove {
+  background-color: #d954af; /* Cor rosa para indicar remover */
+}
+
+/* Estilo para o formulário de criação de tarefas */
+.todo-form {
+  padding-bottom: 1.5rem; /* Espaço abaixo do formulário */
+}
+
+/* Estilo para inputs e selects dentro do formulário */
+input, select {
+  padding: 5px; /* Espaçamento interno */
+  margin-bottom: 10px; /* Margem abaixo dos campos */
+  border-radius: 3px; /* Bordas arredondadas */
+  width: 100%; /* Ocupa toda a largura disponível */
+}
+
+/* Estilo para os containers de filtro e pesquisa */
+.filter, 
+.search {
+  border-bottom: 1px solid #555; /* Linha separadora no final */
+  margin-bottom: 20px; /* Margem abaixo dos containers */
+  padding-bottom: 20px; /* Espaço abaixo dos containers */
+}
+
+/* Estilo para as opções de filtro */
+.filter-options {
+  display: flex; /* Flexbox para organizar as opções */
+  justify-content: space-between; /* Espaça igualmente as opções */
+  gap: 3rem; /* Espaçamento de 3rem entre as opções */
+}
+
+/* Estilo adicional para cada div dentro de filter-options */
+filter-options div {
+  flex: 1 1 0; /* Flexbox para garantir que as opções se ajustem ao espaço */
+}
